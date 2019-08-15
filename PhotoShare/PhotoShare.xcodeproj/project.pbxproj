@@ -11,6 +11,10 @@
 		E84C7F642305F6A600FBD774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84C7F622305F6A600FBD774 /* Main.storyboard */; };
 		E84C7F662305F6A800FBD774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84C7F652305F6A800FBD774 /* Assets.xcassets */; };
 		E84C7F692305F6A800FBD774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84C7F672305F6A800FBD774 /* LaunchScreen.storyboard */; };
+		E84C7F752305F9CB00FBD774 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C7F742305F9CB00FBD774 /* Photo.swift */; };
+		E84C7F792305FCA100FBD774 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C7F782305FCA100FBD774 /* PhotoController.swift */; };
+		E84C7F7C2306146600FBD774 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C7F7B2306146600FBD774 /* PhotoTableViewCell.swift */; };
+		E84C7F7E2306147A00FBD774 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C7F7D2306147A00FBD774 /* PhotoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E84C7F652305F6A800FBD774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E84C7F682305F6A800FBD774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E84C7F6A2305F6A800FBD774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84C7F742305F9CB00FBD774 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E84C7F782305FCA100FBD774 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		E84C7F7B2306146600FBD774 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		E84C7F7D2306147A00FBD774 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		E84C7F712305F6C000FBD774 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E84C7F742305F9CB00FBD774 /* Photo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +91,7 @@
 		E84C7F722305F6C700FBD774 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				E84C7F782305FCA100FBD774 /* PhotoController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -89,8 +99,18 @@
 		E84C7F732305F6CD00FBD774 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				E84C7F7A2306142F00FBD774 /* CustomCell */,
+				E84C7F7D2306147A00FBD774 /* PhotoTableViewController.swift */,
 			);
 			path = ModelView;
+			sourceTree = "<group>";
+		};
+		E84C7F7A2306142F00FBD774 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				E84C7F7B2306146600FBD774 /* PhotoTableViewCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84C7F7C2306146600FBD774 /* PhotoTableViewCell.swift in Sources */,
+				E84C7F792305FCA100FBD774 /* PhotoController.swift in Sources */,
+				E84C7F7E2306147A00FBD774 /* PhotoTableViewController.swift in Sources */,
+				E84C7F752305F9CB00FBD774 /* Photo.swift in Sources */,
 				E84C7F5F2305F6A600FBD774 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
